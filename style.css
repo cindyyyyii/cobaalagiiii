@@ -5,15 +5,14 @@
 
 body{
     font-family: "Poppins";
-    background-color: #EFC3CA;
-    /* background-image: ur1(output1.png); */
-
+    background-color: #87CEEB; 
     padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh; /*Menggunakan height 100vh agar konten tetap berada di tengah vertikal 
+    height: 100vh; /*Menggunakan height 100vh agar konten tetap berada di tengah vertikal *
+  
 }
 
 .profile{  /" manggil class div */
@@ -26,15 +25,15 @@ body{
     max-width: 150px;
     width: 100%;
     height: auto;
-    border-radius: 80%; /*rasio buletannya */
+    border-radius: 10%; /*rasio buletannya */
     border: 3px solid white; /*bentuk lingkaran */
-    box-shadow: 0 0 10px rgba(0, 0, 0); /*bayangan halus*/;
+    box-shadow: 0 0 10px rgb(225, 248, 220); /*bayangan halus*/;
 }
 
 .profile h1{ /* manggil elemen h1 dalam class div */
     margin-top: Spx;
     font-size: 24px;
-    color: black;
+    color:aliceblue;
 }
 
 .profile p {
@@ -53,8 +52,8 @@ body{
     display: inline-block; /* Mengubah link menjadi inline-block */
     margin: 5px; /* Jarak antara link */
     text-decoration: none;
-    background-color:bisque; /* warna latar tombol */
-    color:#EFC3CA; /* warna teks tombol */
+    background-color:#EFC3CA; /* warna latar tombol */
+    color:aliceblue; /* warna teks tombol */
     padding: 10px;
     border-radius: 5px; /* sudut tombol */
     transition: background-color 0.3s; /* transisi saat dihover */
@@ -110,5 +109,4 @@ body{
   .profile p{
     font-size: 16px;
   }
-  
 
